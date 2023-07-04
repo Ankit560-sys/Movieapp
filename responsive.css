@@ -1,0 +1,106 @@
+@media(max-width:350px) {
+
+.box {
+
+    flex-basis: 80%;
+    height: 200px;
+}
+
+.searchbar input {
+    width: 80%;
+    font-size:10px;
+}
+
+.overlay h2 {
+    font-size: 10px;
+}
+
+.box span {
+    font-size: 8px;
+
+}
+
+.overlay h3 {
+    font-size: 10px;
+}
+
+.overlay p {
+    font-size: 8px;
+}
+
+}
+
+@media(max-width:600px) and (min-width:350px) {
+
+
+    .box {
+
+        flex-basis: 50%;
+        height: 200px;
+    }
+
+    .searchbar input {
+        width: 60%;
+        font-size:13px;
+    }
+
+    .overlay h2 {
+        font-size: 10px;
+    }
+
+    .box span {
+        font-size: 8px;
+
+    }
+
+    .overlay h3 {
+        font-size: 10px;
+    }
+
+    .overlay p {
+        font-size: 8px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+@media(max-width:850px) and (min-width:600px) {
+
+    .searchbar input {
+        width: 60%;
+        font-size:13px;
+    }
+
+    .box {
+
+        flex-basis: 28%;
+        height: 200px;
+    }
+
+    .overlay h2 {
+        font-size: 13px;
+    }
+
+    .box span {
+        font-size: 10px;
+
+    }
+
+    .overlay h3 {
+        font-size: 13px;
+    }
+
+    .overlay p {
+        font-size: 10px;
+    }
+
+    
+
+}
